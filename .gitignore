@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+!.env
+.env
+.env.bak/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 統計データ
+data/stats.json
+*/ip_data
+*/banned_ips.json
+
+# エディタ/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 生成された静的ファイル
+static/*.jpg
+static/*.png
+
+# Security files
+/security/
+security/
+/data/security/
+data/security/
+*.security.json
+dangerous_paths.json
+guardian.py
+/internal/
+internal/
+/lib/
+lib/
+/core/
+core/
+_security.py
+protection.py
+shield.py
+
+# ログ
+*.log
+logs/
+
+# 仮想環境
+.venv
+dick.frwi.net
+
+# フロントエンド関連
+templates/
+static/
