@@ -1,5 +1,7 @@
 # 🍆 New Dicks as a Service (DaaS)
 
+[日本語](README.md) | [English](README_EN.md)
+
 おちんぽ生成API。様々なカテゴリのASCIIアートおちんぽを提供します。
 APIを通じて、アプリケーションに簡単に組み込むことができます。
 
@@ -35,17 +37,13 @@ https://dick.frwi.net/docs
 ## 🔧 Development
 
 ### Requirements
-- Python 3.8+
-- FastAPI
-- uvicorn
-- Jinja2
-- Pillow
+[ここ](requirements.txt)
 
 ### Setup
 ```bash
 # リポジトリのクローン
-git clone https://github.com/FreeWiFi7749/dicks-api.git
-cd dicks-api
+git clone https://github.com/FreeWiFi7749/DaaS.git
+cd [DaaS/の/パス]
 
 # 仮想環境の作成と有効化
 python -m venv .venv
